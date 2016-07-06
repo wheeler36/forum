@@ -4,5 +4,7 @@
     Published
     = time_ago_in_words(post.created_at)
     Ago
+    by
+    = post.user.email
 
 = link_to "New Post", new_post_path
