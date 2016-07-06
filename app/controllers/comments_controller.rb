@@ -32,6 +32,7 @@ class CommentsController < ApplicationController
   end
 
   private
+  
     def set_comment
       @post = Post.find(params[:post_id])
     end
